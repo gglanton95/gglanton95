@@ -1,0 +1,37 @@
+.post-it {
+background-color:aliceblue;
+display: inline-block;
+width: 150px;
+font-family: Arial, Helvetica, sans-serif;
+margin: 10px; 
+padding: 10px;
+vertical-align: top;
+position: relative;
+}
+
+img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.pin {
+    position: absolute;
+    top: -10px;
+    right: 50px;
+    rotate: -10deg;
+    width: 40px;
+    height: 40px;
+}
+
+.rotate {
+    rotate: -5deg;
+}
+
+.rotate2 {
+    rotate: 5deg;
+}
+
+.beige {
+    background-color: beige;
+}

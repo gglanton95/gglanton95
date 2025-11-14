@@ -1,0 +1,13 @@
+div .orange {
+   color: orange; 
+}
+
+div .red {
+   color: red; 
+   font-size: 25px;
+}
+
+div .text {
+   font-size: 25px;
+   font-weight: bold;
+}

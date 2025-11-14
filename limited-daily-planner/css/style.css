@@ -1,0 +1,50 @@
+div#Morning {
+    background-color: #a7fca7;
+    border: 20px solid #00ffc8;;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 0px;
+    box-shadow: 16px 16px 8px 0px rgb(248, 213, 161);
+}
+
+div#Afternoon {
+    background-color: #e094f7;
+    border: 20px solid #cc00ff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 0px;
+    box-shadow: 16px 16px 8px 0px rgb(192, 240, 255);
+}
+
+div#Evening {
+    background-color: #f7e094;
+    border: 20px solid #ffcc00;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 0px;
+    box-shadow: 16px 16px 8px 0px pink;
+}
+
+.strike {
+    color: rgb(0, 0, 0);
+    text-decoration: line-through;
+}
+
+.button {
+    background-color: #ffb3b3;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 5px #999;
+}
+
+.red {
+    color: red;
+}

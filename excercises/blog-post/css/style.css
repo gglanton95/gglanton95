@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Griffy&display=swap');
+
+h1 {
+    font-family: "Fredericka the Great", serif;
+}
+
+p {
+    font-family: "Radley", serif;
+}
+
 * {
     box-sizing: border-box;
 }

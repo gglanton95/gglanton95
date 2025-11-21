@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: sans-serif;
+    background-color: aliceblue;
+    margin: 50px;
+    padding: 0;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+single-column-layout {
+    align-items: center;
+    display: block;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+
+.side-by-side {
+    display: flex;
+    gap: 25px;
+}
+.side-by-side .image-contain,
+.side-by-side .content {
+    flex: 1;
+}
+
+.three-cards {
+    display: flex;
+    gap: 25px;
+}
+
+.three-cards .card {
+    flex: 1;;
+}
+
+.content h1 {
+    font-size: 15px;
+}
+
+.content h2 {
+    font-size: 30px;
+}
+
+.content p {
+    font-size: 20px;
+    line-height: 1.5;
+}

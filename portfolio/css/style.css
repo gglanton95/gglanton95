@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Griffy&family=Nabla&family=Oswald:wght@200..700&family=Radley:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    background-color: white;
+    padding: 12px 24px;
+    justify-content: center;
+    gap: 32px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 5px solid rgb(127, 133, 139);
+    border-radius: 50px;
+}
+
+#Jim {
+    background-color: transparent;
+    border: transparent;
+    color: rgb(0, 0, 0);
+}
+
+#hero-4 {
+    background-image: url("../images/urban-1a4h3.jpg");
+    height: 400px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-4 .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+#hero-4 h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+
+#hero-4 h4 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+#hero-4 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 10px 0px;
+}
+
+.horizontal-masonry-gallery img {
+    height: 250px;
+    width: auto;
+    flex: 1;
+    margin-bottom: 24px;
+}
+
+.vertical-masonry-gallery {
+    column-count: 3;
+    column-gap: 24px;
+    padding: 10px 0px;
+}
+
+.vertical-masonry-gallery img {
+    margin-bottom: 24px;
+}
+
+.button {
+    background-color: #a3a3a3;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.card {
+    flex: 1;
+    border: 3px solid #000000;
+    padding: 36px;
+    text-align: center;
+    margin: 25px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-column {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+#card-section {
+    color: #000000;
+    padding: 48px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction:row;
+        align-items: center;
+    }
+
+    #hero-4 {
+        width: 100%;
+    }
+
+    .horizontal-masonry-gallery {
+        flex-direction: column;
+    }
+
+    .horizontal-masonry-gallery img {
+        height: auto;
+        width: 100%;
+    }
+
+    .vertical-masonry-gallery {
+        column-count: 1;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+    
+}
+
